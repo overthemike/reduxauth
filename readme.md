@@ -1,12 +1,12 @@
 ## Dependencies
 Backend: (needs to be installed in /server via yarn add)
-    * [express-jwt](https://www.npmjs.com/package/express-jwt)
-    * [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-    * [config](https://www.npmjs.com/package/config) 
+*   [express-jwt](https://www.npmjs.com/package/express-jwt)
+*   [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+*   [config](https://www.npmjs.com/package/config) 
 
 Frontend: (needs to be installed in /client via yarn add)
-    * [jwt-decode](https://www.npmjs.com/package/jwt-decode)
-    * [redux-thunk](https://www.npmjs.com/pacakage/redux-thunk)
+*   [jwt-decode](https://www.npmjs.com/package/jwt-decode)
+*   [redux-thunk](https://www.npmjs.com/pacakage/redux-thunk)
 
 ## Backend Setup
 #### Config Setup.

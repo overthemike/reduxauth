@@ -203,3 +203,5 @@ export default Authorize(Protected)
 ```
 
 Boom. Done. If your user is not logged in, when they try and go to this component, it will redirect them back to `/login`.
+
+### Hot Beans

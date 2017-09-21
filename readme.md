@@ -110,7 +110,7 @@ We're almost there!
 
 Let's create our `<Login>` form component now. You will need to modify this to suit your own display needs, but you can use the rest of it to give you the authentication you want.
 
-```
+```jsx
 import React, { Component } from 'react'
 import {loginUser, logoutUser} from '../lib/auth'
 import {connect} from 'react-redux'
@@ -164,14 +164,14 @@ Fortunately, it's pretty simple. Create your component as you normally would. We
 
 Let's pretend we have a component called `Protected`. First thing to do is to create a `Route` to that component inside of our `App.js` file like we would any other component.
 
-```
+```jsx
 import Protected from './components/Protected'
 <Route path='/protected' component={Protected} />
 ```
 
 Let's take a look at what this Protected component may look like:
 
-```
+```jsx
 import React, { Component } from 'react'
 
 class Protected extends Component {
@@ -187,7 +187,7 @@ export default Protected
 
 The only thing we need to do to make this component live behind a login is to wrap this component in our Authorize() function imported from our auth lib. Like this:
 
-```
+```jsx
 import React, { Component } from 'react'
 import {Authorize} from '../lib/auth'
 
